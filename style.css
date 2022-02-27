@@ -76,14 +76,15 @@ body{
     float: right;
     line-height: 50px;
     margin-right: 40px;
-   margin-top: 18px;
-   display: none;
+    margin-top: 18px;
+    display: none;
     
 }
 
 #checkbox{
     display: none;
 }
+
 /* Showcase */
 section{
     position: relative;
@@ -157,10 +158,12 @@ section .showcase h1 span{
     padding: 50px;
     
 }
-/* gets distorted when height of .aboutin changes */
+/* gets distorted when height of .aboutin changes set the height to specific px and the width to auto */
 img{
-    width: 35%;
+    width: auto;
+    height: 500px;
     margin-right: 50px;
+    margin-top: 80px;
     box-shadow: var(--shadow);
     border-radius: 30px ;
 }
@@ -213,6 +216,11 @@ img{
     transition: .8s;
     
 }
+
+progress{
+    height: 50px;
+;
+}
 /* skills */
 
 .container h1{
@@ -236,6 +244,7 @@ img{
     align-items: flex-end;
     margin-bottom: 60px;
 }
+
 
 /* education */
 .education{
@@ -453,7 +462,7 @@ footer{
        text-align: center;
       
     }
-    
+   
     .navbar ul{
         position: fixed;
         width: 100%;
